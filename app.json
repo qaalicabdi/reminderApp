@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Remindy",
+    "slug": "Remindy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "remindy.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+      },
+      "permissions": [
+        "android.permission.VIBRATE",
+        "com.google.android.c2dm.permission.RECEIVE"
+      ],
+      "package": "remindy.app"
+    },
+    "web": {
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "75a43050-7196-4cfb-bbae-d08a424804d6"
+      }
+    }
+  }
+}
